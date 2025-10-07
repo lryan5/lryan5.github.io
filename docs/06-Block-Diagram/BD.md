@@ -1,5 +1,5 @@
 ---
-title: PB test
+title: Individual Block Diagram
 ---
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
+![Block1](Lia_Ryan_Individual_Block_Diagram.png){style width:"350" height:"300;"}
