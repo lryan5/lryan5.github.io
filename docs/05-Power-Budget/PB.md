@@ -1,5 +1,5 @@
 ---
-title: PB test
+title: Power Budget
 ---
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
+Charging up!
