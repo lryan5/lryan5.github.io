@@ -2,9 +2,9 @@
 title: Component Selection
 ---
 
-# IR Sensor
+## IR Sensor
 
-### Photo Transistor
+#### Photo Transistor
 | Solution | Pros | Cons |
 |-----------|------|------|
 ![BPW34](BPW34.jpg) <br>Option 1 <br>Vishay BPW34 Through Hole Photo Transistor <br>$1.23 each <br>[link](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/BPW34/1681149) | * Small Size <br> * More precise distance  | * More expensive <br> * Higher viewing angle
@@ -22,7 +22,7 @@ title: Component Selection
 **Rationale:** For our products operation we don’t need a precise distance calculation. As long as the IR sensor can detect an object within a set range, the product’s operation can be activated. Also, option 2 will be able to pick up the signals we want without interference due to its lower viewing angle. Option 2 is less expensive than the other choices, allowing our customers to pay less for the finished device.
 
 
-### IR LED
+#### IR LED
 | Solution | Pros | Cons |
 |-----------|------|------|
 ![TSAL6100](TSAL6100.jpg) <br>Option 1<br>TSAL6100 Through Hole IR LED<br>$0.49 each<br>[link](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TSAL6100/1681338) | • High radiant intensity<br>• Lower viewing angle | • Need to construct housing<br>• Need to create an attachment to PIC |
@@ -39,7 +39,7 @@ title: Component Selection
 
 **Rationale:** This LED Is easier to work with and should give more exact results than the other options. The product shouldn’t be triggered automatically; with the narrow viewing angle of this LED, only a small area will be the trigger area compared to the TSAL6200. Also, the range of this LED is far greater than the OPB732, making operation of the product easier for the end user.
 
-### Op Amp for Photo Transistor
+#### Op Amp for Photo Transistor
 
 | Solution | Pros | Cons |
 |-----------|------|------|
@@ -57,9 +57,9 @@ title: Component Selection
 
 **Rationale:** The MCP6004-I/P is easier to work with because we have worked with in the past and know the general setup that is required to make it function. Making our product more affordable for the customer, the op-amp is significantly less expensive than the competitors and will be able to complete its task. 
 
-# LED
+## LED
 
-### Red LED
+#### Red LED
 
 | Solution | Pros | Cons |
 |-----------|------|------|
@@ -77,12 +77,12 @@ title: Component Selection
 
 **Rationale:** An RGB LED will only take up on spot on the product making it look nicer than if it were two separate LEDS of differing colors. The diffused housing of option 2 hides the electronics inside the LED housing making the product more visually appealing.
 
-### Blue LED
+#### Blue LED
 Using RGB LED
 
-# Button
+## Button
 
-### Button 1
+#### Button 1
 
 | Solution | Pros | Cons |
 |-----------|------|------|
