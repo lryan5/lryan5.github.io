@@ -2,7 +2,7 @@
 title: Component Selection
 ---
 
-## IR Sensor
+# IR Sensor
 
 ### Photo Transistor
 | Solution | Pros | Cons |
@@ -57,7 +57,7 @@ title: Component Selection
 
 **Rationale:** The MCP6004-I/P is easier to work with because we have worked with in the past and know the general setup that is required to make it function. Making our product more affordable for the customer, the op-amp is significantly less expensive than the competitors and will be able to complete its task. 
 
-## LED
+# LED
 
 ### Red LED
 
@@ -80,7 +80,7 @@ title: Component Selection
 ### Blue LED
 Using RGB LED
 
-## Button
+# Button
 
 ### Button 1
 
