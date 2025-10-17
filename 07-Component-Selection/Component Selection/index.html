@@ -784,6 +784,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -812,6 +814,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -820,9 +824,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ir-sensor" class="md-nav__link">
+  <a href="#photo-transistor" class="md-nav__link">
     <span class="md-ellipsis">
-      IR Sensor
+      Photo Transistor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ir-led" class="md-nav__link">
+    <span class="md-ellipsis">
+      IR LED
     </span>
   </a>
   
@@ -917,6 +930,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -925,9 +940,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ir-sensor" class="md-nav__link">
+  <a href="#photo-transistor" class="md-nav__link">
     <span class="md-ellipsis">
-      IR Sensor
+      Photo Transistor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ir-led" class="md-nav__link">
+    <span class="md-ellipsis">
+      IR LED
     </span>
   </a>
   
@@ -956,9 +980,8 @@
   
 
 
-  <h1>Component Selection</h1>
-
-<h2 id="ir-sensor">IR Sensor</h2>
+<h1 id="ir-sensor">IR Sensor</h1>
+<h2 id="photo-transistor">Photo Transistor</h2>
 <table>
 <thead>
 <tr>
@@ -975,6 +998,9 @@
 </tr>
 </tbody>
 </table>
+<p>| Solution | Pros | Cons |
+|-----------|------|------|v
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../BPW96B_sml.jpg" data-desc-position="bottom"><img alt="BPW96B" src="../BPW96B_sml.jpg"></a> <br><em>Option 2 <br> </em>Vishay BPW96B Through Hole Photo Transistor <br> <em>$0.95 each <br> <a href="https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/BPW96B/4071185?s=N4IgTCBcDaIEIAUDqBOAbHEBdAvkA">link</a> | </em>Less expensive <br> <em>Lower Viewing angle | </em>Less precise distance <br> *Large size</p>
 <table>
 <thead>
 <tr>
@@ -985,23 +1011,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../BPW96B_sml.jpg" data-desc-position="bottom"><img alt="BPW96B" src="../BPW96B_sml.jpg"></a> <br><em>Option 2 <br> </em>Vishay BPW96B Through Hole Photo Transistor <br> *$0.95 each <br> <a href="https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/BPW96B/4071185?s=N4IgTCBcDaIEIAUDqBOAbHEBdAvkA">link</a></td>
-<td><em>Less expensive <br> </em>Lower Viewing angle</td>
-<td><em>Less precise distance <br> </em>Large size</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Solution</th>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="OPB732.jpg" data-desc-position="bottom"><img alt="OPB732" src="OPB732.jpg"></a> <br>Option 3 <br>TT Electronics OPB732 Through Hole IR LED <br> $4.61 each <br><a href="https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069">link</a></td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../OPB732.jpg" data-desc-position="bottom"><img alt="OPB732" src="../OPB732.jpg"></a> <br>Option 3 <br>TT Electronics OPB732 Through Hole IR LED <br> $4.61 each <br><a href="https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069">link</a></td>
 <td>• Currently have 1 device<br>• Setup is known</td>
 <td>• Short viewing distance<br>• More expensive</td>
 </tr>
@@ -1009,6 +1019,57 @@
 </table>
 <p><strong>Choice:</strong> Option 2: Vishay BPW96B Through Hole Photo Transistor</p>
 <p><strong>Rationale:</strong> For our products operation we don’t need a precise distance calculation. As long as the IR sensor can detect an object within a set range, the product’s operation can be activated. Also, option 2 will be able to pick up the signals we want without interference due to its lower viewing angle. Option 2 is less expensive than the other choices, allowing our customers to pay less for the finished device.</p>
+<h2 id="ir-led">IR LED</h2>
+<table>
+<thead>
+<tr>
+<th>Solution</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../TSAL6100.jpg" data-desc-position="bottom"><img alt="TSAL6100" src="../TSAL6100.jpg"></a> <br>Option 1<br>TSAL6100 Through Hole IR LED<br>$0.49 each<br><a href="https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TSAL6100/1681338">link</a></td>
+<td>• High radiant intensity<br>• Lower viewing angle</td>
+<td>• Need to construct housing<br>• Need to create an attachment to PIC</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Solution</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../TSAL6200.jpg" data-desc-position="bottom"><img alt="TSAL6200" src="../TSAL6200.jpg"></a> <br>Option 2 <br>TSAL6200 Through Hole IR LED<br>$0.49 each<br> <a href="https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TSAL6200/1681339?s=N4IgTCBcDaICoGUCCAZAbGADJkBdAvkA">link</a></td>
+<td>• Higher stock<br>• Stable over operating temperature</td>
+<td>• Higher viewing angle<br>• Lower radiant intensity<br>• Need to construct housing<br>• Need to create an attachment to PIC</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Solution</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../OPB732.jpg" data-desc-position="bottom"><img alt="OPB732" src="../OPB732.jpg"></a> <br>Option 3<br>TT Electronics OPB732 Through Hole IR LED<br>$4.61 each<br><a href="https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069">link</a></td>
+<td>• Currently have 1 device<br>• Setup is known</td>
+<td>• Short viewing distance<br>• Expensive</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:</strong> Option 1: TSAL6100 Through Hole IR LED</p>
+<p><strong>Rationale:</strong> This LED Is easier to work with and should give more exact results than the other options. The product shouldn’t be triggered automatically; with the narrow viewing angle of this LED, only a small area will be the trigger area compared to the TSAL6200. Also, the range of this LED is far greater than the OPB732, making operation of the product easier for the end user.</p>
 
 
 
