@@ -1,6 +1,10 @@
 ---
 title: Component Selection
 ---
+## Overview
+
+The following are the components I have selected for my subsystem and the reason as to why I chose them.
+
 
 ## IR Sensor
 
