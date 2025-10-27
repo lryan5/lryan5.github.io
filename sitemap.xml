@@ -11,7 +11,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/</loc>
+         <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component%20Selection/</loc>
          <lastmod>2025-10-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -32,11 +32,6 @@
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/06-Block-Diagram/BD/</loc>
-         <lastmod>2025-10-27</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://embedded-systems-design.github.io/EGR304DataSheetTemplate/07-Component-Selection/Component%20Selection/</loc>
          <lastmod>2025-10-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
