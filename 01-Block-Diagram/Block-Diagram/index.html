@@ -571,9 +571,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
+  <a href="#external-ir-sensor-and-user-interface-lights-block-diagram" class="md-nav__link">
     <span class="md-ellipsis">
-      Example Block Diagram
+      External IR Sensor and User Interface Lights Block Diagram
     </span>
   </a>
   
@@ -1009,9 +1009,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#example-block-diagram" class="md-nav__link">
+  <a href="#external-ir-sensor-and-user-interface-lights-block-diagram" class="md-nav__link">
     <span class="md-ellipsis">
-      Example Block Diagram
+      External IR Sensor and User Interface Lights Block Diagram
     </span>
   </a>
   
@@ -1043,18 +1043,12 @@
   <h1>Individal Block Diagram</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...</p>
-<p>To get some initial formatting help, one can view <a href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/">"here"</a> some basic techniques.</p>
-<h2 id="example-block-diagram">Example Block Diagram</h2>
-<p>Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../individual-block-diagram.png" data-desc-position="bottom"><img alt="Example of Indivial Block diagram " src="../individual-block-diagram.png"></a></p>
+<p>This block diagram uses an IR LED, OP-amp, and Phototransistor to create an IR sensor. This IR sensor will detect when a user wishes to open the trash can. When the Curiosity Nano detects this input from the sensor, it will then send an opening digital signal to the motor subsystem through the communication connector to open the lid.</p>
+<p>Along with the exterior IR sensor, this subsystem also controls an RGB light that will inform the user of amount of trash in the trash can. If the Curiosity Nano receives a full signal from the weight sensor or the interior IR sensor through the communication connector, the front LED will start blinking red, informing the user to replace or compact the trash.</p>
+<p>The power source for this subsystem will be a 9V power supply from a wall connected barrel-jack, or a 9V and 5V transfer from another subsystem through the communication connectors.</p>
+<h2 id="external-ir-sensor-and-user-interface-lights-block-diagram">External IR Sensor and User Interface Lights Block Diagram</h2>
+<p>Here is the block diagram for Lia Ryan's Subsystem.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../New-10-27_Lia_Block_Diagram.drawio.png" data-desc-position="bottom"><img alt="Block1" height:_300_="height:&quot;300;&quot;" src="../New-10-27_Lia_Block_Diagram.drawio.png" style="style" width:_350_="width:&quot;350&quot;"></a></p>
 
 
 
