@@ -28,13 +28,6 @@ for<br>
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
-
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
-
-For all the sections
-
 My part in the Autocan project was to design the external IR sensor and UI lights. To do this I did research and designed parts that would function well together to complete this taks. The following are the major steps I have taken in designing my subsystem.
 
 * To view my Block Diagram, click [here.](https://lryan5.github.io/01-Block-Diagram/Block-Diagram/) This part of the design process shows the general idea of how my PCB will function and the connections to each sensor it will use to carry out the required task.
