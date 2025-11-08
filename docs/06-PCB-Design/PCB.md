@@ -17,4 +17,5 @@ This is the front and back of my PCB design without the drill holes. Both show t
 
 The Front PCB design as a PDF download is available [*here*](11-7-25-PCB-Front.pdf). <br>
 The Front PCB design as a PDF download is available [*here*](11-7-25-PCB-Back.pdf). <br>
-The Zip folder of the project [*here*](11-7-25-schematic.zip).<br>
+The Zip folder of the project is available [*here*](11-7-25-schematic.zip).<br>
+The Zip folder of the Gerber and drill files are [*here*](LiaRyan202.zip).<br>
