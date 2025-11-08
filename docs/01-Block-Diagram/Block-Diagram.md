@@ -16,4 +16,4 @@ The power source for this subsystem will be a 9V power supply from a wall connec
 ## External IR Sensor and User Interface Lights Block Diagram
 Here is the block diagram for Lia Ryan's Subsystem.
 
-![Block1](New-10-27_Lia_Block_Diagram.drawio.png){style width:"350" height:"300;"}
+![Block1](11-7-25_Ind_Block_Diagram.png){style width:"350" height:"300;"}
