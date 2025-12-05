@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.4"
     },
-    "CreationDate": "2025-11-19T21:42:55-07:00"
+    "CreationDate": "2025-12-05T13:46:05-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -41,26 +41,6 @@
     {
       "Path": "Subsystem_Schematic_Design_Lia_Ryan_EGR304_Team_202-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Subsystem_Schematic_Design_Lia_Ryan_EGR304_Team_202-F_Silkscreen.gbr",
-      "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Subsystem_Schematic_Design_Lia_Ryan_EGR304_Team_202-F_Mask.gbr",
-      "FileFunction": "SolderMask,Top",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "Subsystem_Schematic_Design_Lia_Ryan_EGR304_Team_202-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "Subsystem_Schematic_Design_Lia_Ryan_EGR304_Team_202-Edge_Cuts.gbr",
-      "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
   ],
