@@ -6,6 +6,8 @@ title: PCB Design
 
 This is the front and back of my PCB design without the drill holes. Both show the copper that will remain after milling. However, the front also shows the Top silkscreen. Using jumpers, this PCB is modular and somewhat reconfigurable in the case that mistakes were make during design.
 
+Only the power supply was able to be soldered due to time constraints from receiving the PCB late and delays due to testing the power supply.
+
 
 ![Front PCB](12-05-25-PCB-Front.png){style width:"350" height:"300;"}
 **Figure 01:** Showing Lia Ryan's Front PCB Design.
