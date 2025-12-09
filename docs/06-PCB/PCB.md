@@ -13,6 +13,15 @@ This is the front and back of my PCB design without the drill holes. Both show t
 ![Back PCB](12-05-25-PCB-Back.png){style width:"350" height:"300;"}
 **Figure 02:** Showing Lia Ryan's Back PCB Design.
 
+![Real Front PCB](RealFrontPCB.jpeg){style width:"350" height:"300;"}
+**Figure 03:** Showing Lia Ryan's Front PCB without any parts soldered.
+
+![Real Back PCB](RealBackPCB.jpeg){style width:"350" height:"300;"}
+**Figure 04:** Showing Lia Ryan's Back PCB without any parts soldered.
+
+![Solder Front PCB](SolderPCB.jpeg){style width:"350" height:"300;"}
+**Figure 03:** Showing Lia Ryan's Front PCB with the power supply soldered.
+
 ## Resources
 
 The Front PCB design as a PDF download is available [*here*](12-05-25-PCB-Front.pdf). <br>

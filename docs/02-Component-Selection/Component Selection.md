@@ -84,22 +84,11 @@ The following are the components I have selected for my subsystem and the reason
 #### Blue LED
 Using RGB LED
 
-## Button
+## Power Source
 
-#### Button 1
+#### 9V Power Supply
 
-| Solution | Pros | Cons |
-|-----------|------|------|
-![DTS-62N-V](DTS-62N-V.jpg) <br>Option 1<br>Diptronics 113-DTS-62N-V Through Hole Tactile Switch<br>$0.23 each<br>[link](https://www.mouser.com/ProductDetail/Diptronics/DTS-62N-V?qs=gTYE2QTfZfSKTB5KYn%252Brkw%3D%3D) | • Less expensive<br>• Currently have product | • Small size<br>• Not visually appealing |
 
-| Solution | Pros | Cons |
-|-----------|------|------|
-![D6R10](D6R10.jpg) <br>Option 2<br>C&K D6R10 F2 LFS Through Hole Pushbutton Switch<br>$1.62 each<br>[link](https://www.digikey.com/en/products/detail/c-k/D6R10-F2-LFS/1466347) | • Easy-to-push size<br>• Simple pin layout | • More expensive<br>• Very long lead time |
+## Power Regulator
 
-| Solution | Pros | Cons |
-|-----------|------|------|
-![KS11R23CQD](KS11R23CQD.jpg) <br>Option 3<br>C&K KS11R23CQD Through Hole Pushbutton Switch<br>$2.84 each<br>[link](https://www.digikey.com/en/products/detail/c-k/KS11R23CQD/332672) | • Easy-to-push size<br>• Eye-catching color | • More expensive<br>• Odd pin layout |
-
-**Choice:** Option 3: C&K KS11R23CQD Trough hole switch pushbutton
-
-**Rationale:** Option 3 was chosen due to the eye catching color and indented contact point, indicating it is a button. Although the cost is higher and the layout is more complicated than the other options, this switch has a shorter lead time than option 2 and is easier to press than option 1.
+#### 5V Power Regulator 
