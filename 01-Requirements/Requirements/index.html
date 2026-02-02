@@ -26,7 +26,7 @@
 
     
       
-        <title>Module's Requirements - EGR 314 Lia Ryan Datasheet</title>
+        <title>Human Machine Interface Requirements - EGR 314 Lia Ryan Datasheet</title>
       
     
     
@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#module-requirements" class="md-skip">
+        <a href="#human-machine-interface-requirements" class="md-skip">
           Skip to content
         </a>
       
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Module's Requirements
+              Human Machine Interface Requirements
             
           </span>
         </div>
@@ -471,7 +471,7 @@
           
   
   <span class="md-ellipsis">
-    Module's Requirements
+    Human Machine Interface Requirements
   </span>
   
 
@@ -482,7 +482,7 @@
         
   
   <span class="md-ellipsis">
-    Module's Requirements
+    Human Machine Interface Requirements
   </span>
   
 
@@ -502,9 +502,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#module-requirements" class="md-nav__link">
+  <a href="#human-machine-interface-requirements" class="md-nav__link">
     <span class="md-ellipsis">
-      Module Requirements
+      Human Machine Interface Requirements
     </span>
   </a>
   
@@ -791,9 +791,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#module-requirements" class="md-nav__link">
+  <a href="#human-machine-interface-requirements" class="md-nav__link">
     <span class="md-ellipsis">
-      Module Requirements
+      Human Machine Interface Requirements
     </span>
   </a>
   
@@ -822,43 +822,92 @@
   
 
 
-  <h1>Module's Requirements</h1>
+  <h1>Human Machine Interface Requirements</h1>
 
-<h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the this module need to fulfills to .....</p>
+<h2 id="human-machine-interface-requirements">Human Machine Interface Requirements</h2>
+<p>The following sections document the requirements that this Human Machine Interface module needs to fulfill to meet device requirements set by team 314 for our ground search and rescue drone and the mandated Human Machine Interface requirements for this class. </p>
+<p>The Human Machine Interface is a required user interface on the bot that interacts with the whole subsystem using pushbuttons and an OLED screen. </p>
 <table>
 <thead>
 <tr>
-<th><strong>Requirement Description</strong></th>
-<th><strong>Measure of<br> Threshold</strong></th>
-<th><strong>Target<br>Measure</strong></th>
-<th style="text-align: center;"><strong>Stretch<br>Requirement<br>(Y-N)</strong></th>
+<th>Requirements Description</th>
+<th>Measure of Threshold</th>
+<th>Target Measure</th>
+<th>Stretch Requirement</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Surface mounted, 3.3V switching power regulatore</td>
-<td>3.2 Volts</td>
-<td>3.3 Volts</td>
-<td style="text-align: center;">No</td>
+<td>Surface mounted, 3.3V switching power regulator</td>
+<td>3.2V</td>
+<td>3.3V</td>
+<td>N</td>
 </tr>
 <tr>
 <td>Surface mounted microcontroller</td>
 <td>1 PIC or ESP</td>
 <td>8-bit PIC</td>
-<td style="text-align: center;">No</td>
+<td>N</td>
 </tr>
 <tr>
 <td>Wireless Communication</td>
-<td>Able to send or receive a Wi-Fi data</td>
-<td>Send and receive Wi-Fi Data to MQTT</td>
-<td style="text-align: center;">Yes</td>
+<td>Bidirectional communication between vehicle and control</td>
+<td>Bidirectional communication between vehicle and control or status feed without wires</td>
+<td>Y</td>
 </tr>
 <tr>
-<td><em>Rest are items your modules needs to support the task you are covering for the team's device.</em></td>
-<td>---</td>
-<td>---</td>
-<td style="text-align: center;"><strong>NO</strong></td>
+<td>Display live video</td>
+<td>Sends out 30 FPS per second</td>
+<td>Live video with less than 3 seconds of delay</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Human Design Interface; Respond manually with buttons</td>
+<td>Small OLED screen with pushbuttons that permits a user to view all sensor data in text; directly control the actuator; modify setpoints on all the system boards; toggle GPIO debug pins on ALL subsystems.</td>
+<td>All the content in MoT and ability to tune sensors and actuators with controls on exterior of device.</td>
+<td>N</td>
+</tr>
+<tr>
+<td>Daisy chain UART</td>
+<td>Daisy chain UART connection between all subsystems</td>
+<td>Separate UART loops for high speed communication through certain subsystems</td>
+<td>N</td>
+</tr>
+<tr>
+<td>Device must be able to communicate to survivors using a speaker</td>
+<td>Is able to playback audio sent from an HMI device and listen to its environment.</td>
+<td>Is able to playback audio sent from an HMI device and listen to its environment in a hearable range of 90 db, 2 - 5 kHz.</td>
+<td>Y</td>
+</tr>
+<tr>
+<td>Locomotion Control</td>
+<td>Directly controls locomotion for moving forward, reverse, and turning.</td>
+<td>Directly controls each wheel individually</td>
+<td>N</td>
+</tr>
+<tr>
+<td>Wireless Control</td>
+<td>Displays status and controls connection status for the wireless system.</td>
+<td>Displays bit rate and packets of wireless data transmission. Manual control over which wifi channel to use.</td>
+<td>N</td>
+</tr>
+<tr>
+<td>Arm Control</td>
+<td>User controls for general arm movement.</td>
+<td>Precise user controls for exact degree movement for arm motors.</td>
+<td>N</td>
+</tr>
+<tr>
+<td>Camera/distance sensor Control</td>
+<td>Displays camera and distance sensor status and readings. Ability to turn on and off camera and distance sensors.</td>
+<td>Ability to fine tune camera and distance sensor.</td>
+<td>N</td>
+</tr>
+<tr>
+<td>Microphone/Speaker Control</td>
+<td>Displays graphical output from microphone and input to speaker. Ability to turn microphone and speaker on and off.</td>
+<td>Ability to change microphone sensitivity and speaker volume.</td>
+<td>N</td>
 </tr>
 </tbody>
 </table>
