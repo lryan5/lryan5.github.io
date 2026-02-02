@@ -7,8 +7,8 @@ The following sections document the requirements that this Human Machine Interfa
 
 The Human Machine Interface is a required user interface on the bot that interacts with the whole subsystem using pushbuttons and an OLED screen. 
 
-| Requirements Description | Measure of Threshold | Target Measure | Stretch Requirement |
-|---|---|---|---|
+| Requirements Description | Measure of Threshold | Target Measure | Stretch Requirement (Y-N) |
+|------|--------|--------|--|
 | Surface mounted, 3.3V switching power regulator | 3.2V | 3.3V | N |
 | Surface mounted microcontroller | 1 PIC or ESP | 8-bit PIC | N |
 | Wireless Communication | Bidirectional communication between vehicle and control | Bidirectional communication between vehicle and control or status feed without wires | Y |
