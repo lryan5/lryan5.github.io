@@ -3,7 +3,7 @@ title: Human Machine Interface Requirements
 ---
 
 ## Human Machine Interface Requirements
-The following sections document the requirements that this Human Machine Interface module needs to fulfill to meet device requirements set by team 314 for our ground search and rescue drone and the mandated Human Machine Interface requirements for this class. 
+The following sections document the requirements that this Human Machine Interface module needs to fulfill to meet device requirements set by team 303 for our ground search and rescue drone and the mandated Human Machine Interface requirements for this class. 
 
 The Human Machine Interface is a required user interface on the bot that interacts with the whole subsystem using pushbuttons and an OLED screen. 
 
