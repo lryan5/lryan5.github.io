@@ -1,5 +1,5 @@
 ---
-title: Module's Block Diagram
+title: Human Design Interface Block Diagram
 tags:
 - tag1
 - tag2
