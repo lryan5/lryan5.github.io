@@ -1,19 +1,18 @@
 ---
-title: Module's Selected Major Components
+title: Human Design Interface Selected Major Components
 ---
 
-## Module's Selected Major Components
+## Human Design Interface Selected Major Components
 
-The following sections are the selected major components necessary for  .....
+The following sections are the selected major components necessary for the Human Design Interface.
 
->**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
 
 ### OLED Screen
 
 | **Solution**                                                                                                                                                                                    | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | ![](OLED1.jpg)<br>Option 1.<br> Winstar Display WEA012864DWPP3N00003<br>0.96” white graphic display<br>$7.35/each<br>[link to product](https://www.digikey.com/en/products/detail/winstar-display/WEA012864DWPP3N00003/20533255)                 | \* Experience using in class lab<br>\* Less pins to worry about<br>\* Less expensive                                                       | \* Smaller display size<br>\* Difficult to view                                                   |
-| ![](OLED2.jpg)<br>Option 2. <br> Winstar Display WEA012864ALAP3N00E00 <br>1.54” yellow graphic display<br>$14.78/each<br>[link to product](https://www.digikey.com/en/products/detail/winstar-display/WEA012864ALAP3N00E00/24883012) | \* Similar interface as OLED used in class<br>\* Larger Screen<br>\* Easier to view<br>\* Yellow color could look more unique            | \* More pins to worry about<br>\* More expensive                                                    |
+| ![](OLED2.jpg)<br>**Option 2**. <br> Winstar Display WEA012864ALAP3N00E00 <br>1.54” yellow graphic display<br>$14.78/each<br>[link to product](https://www.digikey.com/en/products/detail/winstar-display/WEA012864ALAP3N00E00/24883012) | \* Similar interface as OLED used in class<br>\* Larger Screen<br>\* Easier to view<br>\* Yellow color could look more unique            | \* More pins to worry about<br>\* More expensive                                                    |
 
 **Choice:** Option 2: Winstar Display WEA012864ALAP3N00E00 1.54” yellow graphic display
 
@@ -25,7 +24,7 @@ The following sections are the selected major components necessary for  .....
 | **Solution**                                                                                                                                                                                    | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | ![](Key1.webp)<br>Option 1.<br> Knitter Switch<br>YFT KNI 12B 19<br>Membrane Keypad<br>$14.44/each<br>[link to product](https://www.digikey.com/en/products/detail/knitter-switch/YFT-KNI-12B-19/15296291)                 | \* Slim and light<br>\* Easy to stick anywhere                                                                                             | \* Button feel may be lacking<br>\* More expensive<br>\* Harder to connect to the header            |
-| ![](Key2.webp)<br>Option 2. <br> SparkFun Electronics<br>14662<br>Switch Keypad<br>$4.95/each<br>[link to product](https://www.digikey.com/en/products/detail/sparkfun-electronics/14662/8702491) | \* Less expensive<br>\* Holes to screw onto desired position<br>\* Easier to connect a pin header                                         | \* May be bulky for our device<br>\* Less detailed datasheet                                      |
+| ![](Key2.webp)<br>**Option 2**. <br> SparkFun Electronics<br>14662<br>Switch Keypad<br>$4.95/each<br>[link to product](https://www.digikey.com/en/products/detail/sparkfun-electronics/14662/8702491) | \* Less expensive<br>\* Holes to screw onto desired position<br>\* Easier to connect a pin header                                         | \* May be bulky for our device<br>\* Less detailed datasheet                                      |
 
 **Choice:** Option 2
 
@@ -35,7 +34,7 @@ The following sections are the selected major components necessary for  .....
 
 | **Solution**                                                                                                                                                                                    | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](LED1.webp)<br>Option 1.<br> Kingbright<br>AM23ESGC<br>Green/Red LED<br>$0.48/each<br>[link to product](https://www.digikey.com/en/products/detail/kingbright/AM23ESGC/3084776)                 | \* Pin layout is easier to solder<br>\* Cheaper in bulk<br>\* Wider viewing angle<br>\* Uses less power<br>\* Smaller size                   | N/A                                                                                                |
+| ![](LED1.webp)<br>**Option 1**.<br> Kingbright<br>AM23ESGC<br>Green/Red LED<br>$0.48/each<br>[link to product](https://www.digikey.com/en/products/detail/kingbright/AM23ESGC/3084776)                 | \* Pin layout is easier to solder<br>\* Cheaper in bulk<br>\* Wider viewing angle<br>\* Uses less power<br>\* Smaller size                   | N/A                                                                                                |
 | ![](LED2.png)<br>Option 2. <br> SunLED<br>XZMDKVG57W-1<br>Green/Red LED<br>$0.48/each<br>[link to product](https://www.digikey.com/en/products/detail/sunled/XZMDKVG57W-1/13559285) | N/A                                                                                                                                        | \* Larger size<br>\* Pin layout is more difficult to solder<br>\* More expensive in bulk<br>\* Smaller viewing angle<br>\* Uses more power |
 
 **Choice:** Option 1
@@ -44,9 +43,6 @@ The following sections are the selected major components necessary for  .....
 
 ### Power Management
 
-(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
-
-For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
 
 
 
