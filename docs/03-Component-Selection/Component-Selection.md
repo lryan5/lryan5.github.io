@@ -33,6 +33,15 @@ The following sections are the selected major components necessary for  .....
 
 ### LEDs
 
+| **Solution**                                                                                                                                                                                    | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](LED1.webp)<br>Option 1.<br> Kingbright<br>AM23ESGC<br>Green/Red LED<br>$0.48/each<br>[link to product](https://www.digikey.com/en/products/detail/kingbright/AM23ESGC/3084776)                 | \* Pin layout is easier to solder<br>\* Cheaper in bulk<br>\* Wider viewing angle<br>\* Uses less power<br>\* Smaller size                   | N/A                                                                                                |
+| ![](LED2.png)<br>Option 2. <br> SunLED<br>XZMDKVG57W-1<br>Green/Red LED<br>$0.48/each<br>[link to product](https://www.digikey.com/en/products/detail/sunled/XZMDKVG57W-1/13559285) | N/A                                                                                                                                        | \* Larger size<br>\* Pin layout is more difficult to solder<br>\* More expensive in bulk<br>\* Smaller viewing angle<br>\* Uses more power |
+
+**Choice:** Option 1
+
+**Rationale:** I chose option 1 because the layout of the LED looks like it would be much easier to solder onto a PCB than that of option 2. Also, the viewing angle is much greater, which would make it easier to see the light when debugging.
+
 ### Power Management
 
 (**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
