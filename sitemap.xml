@@ -21,12 +21,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://lryan5.github.io/04-BOM/BOM/</loc>
+         <loc>https://lryan5.github.io/04-Microcontroller%20Selection/Component-Selection/</loc>
          <lastmod>2026-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://lryan5.github.io/05-Schematic/schematic/</loc>
+         <loc>https://lryan5.github.io/05-BOM/BOM/</loc>
+         <lastmod>2026-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lryan5.github.io/06-Schematic/schematic/</loc>
          <lastmod>2026-02-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
