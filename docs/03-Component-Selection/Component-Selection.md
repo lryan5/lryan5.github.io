@@ -22,6 +22,15 @@ The following sections are the selected major components necessary for  .....
 
 ### Keypad
 
+| **Solution**                                                                                                                                                                                    | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](image1.png)<br>Option 1.<br> Knitter Switch<br>YFT KNI 12B 19<br>Membrane Keypad<br>$—/each<br>[link to product](#)                 | \* Slim and light<br>\* Easy to stick anywhere                                                                                             | \* Button feel may be lacking<br>\* More expensive<br>\* Harder to connect to the header            |
+| ![](image2.png)<br>Option 2. <br> SparkFun Electronics<br>14662<br>Switch Keypad<br>$—/each<br>[link to product](#) | \* Less expensive<br>\* Holes to screw onto desired position<br>\* Easier to connect a pin header                                         | \* May be bulky for our device<br>\* Less detailed datasheet                                      |
+
+**Choice:** Option 2
+
+**Rationale:** I chose option 2 due to the much lower price when compared to option 1; having tactile feedback in comparison to option 1; and having an easier connector to hook up to a header to go to the PCB board as compared to option 1.
+
 ### LEDs
 
 ### Power Management
