@@ -27,4 +27,4 @@ The Human Design Interface (HDI) requires several parts in order to function wit
 ## Example Block Diagram 
 The Human Design Interface Block Diagram that I made.
 
-![Human Design Interface Block Diagram ](LiaBlock-2-4-26.png)
+![Human Design Interface Block Diagram ](LiaBlock-3-6-26.png)

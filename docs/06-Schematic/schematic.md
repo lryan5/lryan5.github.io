@@ -1,16 +1,18 @@
 ---
-title: Module Schematic
+title: Human Design Interface Subsystem Schematic
 ---
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic, shown in Figure 1, is design to support human interfacing with Sable. Using a keypad and OLED screen. This subsystem allows the user to read data coming in from all the other subsystems while also being able to control any adjustable parameters that the other subsystems may have. 
 
 
-![schematic](Screenshot.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
 
 
-## Resouces
+![schematic](HDI_PIC.png){style width:"350" height:"300;"}
+**Figure 1:** Showing my Human Design Interface subsystem for Sable.
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+
+## Resources
+
+The schematic as a PDF download is available [*here*](HDI_PIC.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
