@@ -1,29 +1,13 @@
 ---
-title: PCB
+title: Resources
 tags:
 - tag1
 - tag2
 ---
 
-## PCB
+## Resources
 
-This section shows the PCB design, the unpopulated physical PCB, and the populated physical PCB.
-
-### PCB Design
-Here is the front and back of my PCB Design
-
-![Front PCB Design](FrontPCBDesign.png)
-![Front PCB Design](BackPCBDesign.png)
-### Unpopulated PCB
-Here is the front and back of my printed PCBs
-
-![Front PCB Real](FrontPCBReal.jpeg)
-![Front PCB Real](BackPCBReal.jpeg)
-
-### Populated PCB
-Here is a pic of my populated PCB
-
-![Populated PCB](PopulatedPCB.jpeg)
-
-## PCB
-The schematic as a PDF download is available [*here*](HDI_PIC2.pdf), and the Zip folder of the project [*here*](OLED_Subsystem_Schematic_Lia_Ryan_EGR314_Team_303.zip).
+[*Here*](LiaRyanEGR314.zip) is a zip file of the find ESP32 code. 
+<br>
+Here is a video of my subsytem working.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oBIVNnHeueU?si=HBBLn9-meVeUVoxa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
