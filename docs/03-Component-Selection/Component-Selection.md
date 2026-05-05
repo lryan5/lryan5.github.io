@@ -41,6 +41,14 @@ The following sections are the selected major components necessary for the Human
 
 **Rationale:** I chose option 1 because the layout of the LED looks like it would be much easier to solder onto a PCB than that of option 2. Also, the viewing angle is much greater, which would make it easier to see the light when debugging.
 
+## Final Major Components
+
+| Component | Subsystem | Manufacturer / Part # | Description | Unit Cost |
+|---|---|---|---|---|
+| **OLED Display** | Display | Winstar Display / WEA012864ALAP3N00E00 | 1.54" yellow graphic display, I2C interface | $14.78 |
+| **Keypad** | Input | SparkFun Electronics / 14662 | Switch keypad with tactile feedback, screw-mount holes | $4.95 |
+| **Dual-color LED** | Indicator | Kingbright / AM23ESGC | Green/Red LED, wide viewing angle, low power | $0.48 |
+
 ### Power Management
 
 
