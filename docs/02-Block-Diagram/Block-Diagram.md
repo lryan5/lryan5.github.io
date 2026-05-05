@@ -23,8 +23,12 @@ The Human Design Interface (HDI) requires several parts in order to function wit
 * LEDs<br>
 &nbsp;&nbsp;&nbsp;&nbsp; For debugging and any other purpose that we may want them to do<br>
 
+## Decision Making Process
 
-## Example Block Diagram 
+In order to develop this Block Diagram, I used information from the datasheets of the ESP32, Keypad, LED, and OLED display. This information showed me that connecting these components to these pins will allow my subsystem to function.
+
+
+## Block Diagram 
 The Human Design Interface Block Diagram that I made.
 
 ![Human Design Interface Block Diagram ](LiaBlock-3-6-26.png)
